@@ -25,6 +25,11 @@ function desencriptar(textoDesencriptado){
     return textoDesencriptado;
 }
 
+function copiar(){
+    const mensajeCopia = mensaje.value
+    navigator.clipboard.writeText(mensajeCopia)
+}
+
 function botonEncriptar(){
     const mensajeEncriptado = encriptar(textArea.value);
     mensaje.value = mensajeEncriptado;
@@ -37,3 +42,4 @@ function botonDesencriptar(){
     mensaje.value = mensajeDesencriptado;
     textArea.value = "";
 }
+
