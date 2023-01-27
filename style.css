@@ -8,21 +8,41 @@
 .logo{
    padding-top: 10px;
    margin-left: 10px;
-   width: 5%;
+   width: 48px;
 }
 
 main {
     display: flex;
     margin-bottom: 50px;
     margin-left: 80px;
+    
 }
 
 .text-area{
     border: none;
     color: #0A3871;
-    margin-top: 90px;
+    margin-top: 40px;
     text-transform: lowercase;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    height: 770px;
+    
 
+}
+
+.info{
+    width: 205px;
+    height: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8
 }
 
 ::placeholder{
@@ -43,8 +63,9 @@ main {
     margin-left: 98px;
     margin-top: 20px;
     padding-left: 20px;
-    position: fixed;
-
+    height: 940px;
+    width: 400px;
+    
 }
 
 .mensaje:focus{
