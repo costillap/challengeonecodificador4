@@ -2,40 +2,65 @@
     background: #F3F5FC ;
     font-family: 'Inter';
     font-style: normal;
+    padding: 0px;
+    margin: 0px;
 
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100px;
 }
 
 .logo{
    padding-top: 10px;
-   margin-left: 10px;
+   margin: 10px;
    width: 48px;
 }
 
 main {
     display: flex;
-    margin-bottom: 50px;
-    margin-left: 80px;
-    
+    flex-direction: row;
+    height: 90vh;
+        
 }
+
+.textAreaSection{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .text-area{
     border: none;
     color: #0A3871;
-    margin-top: 40px;
     text-transform: lowercase;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
-    height: 770px;
+    margin: 20px;
+    padding: 20px;
+    height: 100%;
+    width: 660px;
     
 
 }
 
+.infoSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 .info{
     width: 205px;
-    height: 18px;
+    height: 20px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -53,19 +78,47 @@ main {
     outline: none;
 }
 
+.mensajeSection{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    padding-left: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
+    
+}
 .mensaje{
     background: white;
     background-image: url("./img/mensaje-img.png");
     background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
     border: none;
     border-radius: 24px;
     color:  #0A3871;
-    margin-left: 98px;
+    height: 100%;
+    width: 500px;
+    padding: 80px;
+}
+
+.divCopiar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     margin-top: 20px;
-    padding-left: 20px;
-    height: 940px;
-    width: 400px;
-    
+    margin-bottom: 20px;
+    width: 660px;
+}
+
+.copiar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
 }
 
 .mensaje:focus{
@@ -74,7 +127,9 @@ main {
 
 .botones{
     display: flex;
-    margin-top: 18px;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
 
 }
 
@@ -86,6 +141,7 @@ main {
     cursor: pointer;
     height: 67px;
     width: 328px;
+    margin-right: 3rem;
 
 }
 
@@ -97,5 +153,6 @@ main {
     cursor: pointer;
     height: 67px;
     width: 328px;
-    margin-left: 30px;
+    margin-left: 3rem;
+    
 }
