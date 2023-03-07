@@ -1,47 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/botones.css">
-    <link rel="stylesheet" href="/css/mensaje.css">
-    <link rel="stylesheet" href="/css/text-area.css">
-    
-    
-    <title>Encriptador</title>
-</head>
-<body>
-    <main>
-        <section class="textAreaSection">
-            <div class="logo">
-                <img src="./img/Logo.png" alt="Logo Alura" class="">
-            </div>
-            <textarea class="text-area">Ingrese el texto aquí</textarea>
-            <div class="infoSection">
-                <img src="/img/Vector.svg" alt="">
-                <p class="info">Solo letras minúsculas y sin acentos</p>
-            </div>
-            <div class="botones">
-                <button class="boton-encriptar" onclick="botonEncriptar()">Encriptar</button>
-                <button class="boton-desencriptar" onclick="botonDesencriptar()">Desencriptar</button>
-            </div>
-        </section>
-        <section class="mensajeSection">
-            <textarea class="mensaje"></textarea>
-            <h2 class="mensajeSubtitulo">Ningún mensaje fue encontrado</h2>
-            <p class="infoMensaje">Ingresa el texto que deses encriptar o desencriptar</p>
-            <div class="divCopiar">
-                <button class="copiar" onclick="copiar()">Copiar</button>
-            </div>
-        </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/botones.css" />
+    <link rel="stylesheet" href="/css/mensaje.css" />
+    <link rel="stylesheet" href="/css/text-area.css" />
 
+    <title>Encriptador</title>
+  </head>
+  <body>
+    <main>
+      <section class="textAreaSection">
+        <div class="logo">
+          <img src="./img/Logo.png" alt="Logo Alura" class="" />
+        </div>
+        <textarea class="text-area">Ingrese el texto aquí</textarea>
+        <div class="infoSection">
+          <img src="/img/Vector.svg" alt="" />
+          <p class="info">Solo letras minúsculas y sin acentos</p>
+        </div>
+        <div class="botones">
+          <button class="boton-encriptar" onclick="botonEncriptar()">
+            Encriptar
+          </button>
+          <button class="boton-desencriptar" onclick="botonDesencriptar()">
+            Desencriptar
+          </button>
+        </div>
+      </section>
+      <section class="mensajeSection">
+        <textarea class="mensaje"></textarea>
+        <h2 class="mensajeSubtitulo">Ningún mensaje fue encontrado</h2>
+        <p class="infoMensaje">
+          Ingresa el texto que deses encriptar o desencriptar
+        </p>
+        <div class="divCopiar">
+          <button class="copiar" onclick="copiar()">Copiar</button>
+        </div>
+      </section>
     </main>
     <script src="/js/script.js"></script>
-</body>
+  </body>
 </html>
- 
