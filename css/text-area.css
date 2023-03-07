@@ -1,0 +1,65 @@
+.textAreaSection{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 40px 40px 40px;
+    
+}
+
+.logo{
+    width: 100%;
+}
+
+.logo img{
+    width: 31px;
+    height: 48px;
+}
+.text-area{
+    border: none;
+    color: #0A3871;
+    text-transform: lowercase;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    height: 100%;
+    width: 680px;
+    resize: none;
+    margin: 80px 40px 0px 200px;
+    
+
+}
+.infoSection{
+    width: 680px;
+    display: flex;
+    margin: 0px 40px 0px 200px;
+       
+}
+
+.infoSection img{
+    margin: 0px 0px 16px 0px;
+}
+.info{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    margin: 0px 0px 16px 8px;
+    
+    
+}
+
+::placeholder{
+    color: #0A3871;
+}
+
+.text-area:focus{
+    outline: none;
+}
+

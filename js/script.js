@@ -1,5 +1,9 @@
 const textArea = document.querySelector(".text-area");
 const mensaje = document.querySelector(".mensaje");
+const subtitulo = document.querySelector(".mensajeSubtitulo");
+const infoMensaje = document.querySelector(".infoMensaje");
+const botonCopiar = document.querySelector(".copiar")
+
 
 function encriptar(textoEncriptado){
     let matriz = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];
@@ -26,8 +30,8 @@ function desencriptar(textoDesencriptado){
 }
 
 function copiar(){
-    const mensajeCopia = mensaje.value
-    navigator.clipboard.writeText(mensajeCopia)
+    const mensajeCopia = mensaje.value;
+    navigator.clipboard.writeText(mensajeCopia);
 }
 
 function botonEncriptar(){
@@ -35,6 +39,10 @@ function botonEncriptar(){
     mensaje.value = mensajeEncriptado;
     textArea.value = "";
     mensaje.style.backgroundImage = "none";
+    mensaje.style.height = "781px";
+    subtitulo.style.display ="none";
+    infoMensaje.style.display = "none";
+    botonCopiar.style.visibility = "visible"
 }
 
 function botonDesencriptar(){

@@ -1,0 +1,76 @@
+.mensajeSection{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 32px;
+    background: white;
+    margin: 40px 40px 40px 0px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+
+}
+.mensaje{
+    background: none;
+    background-image: url("/img/mensaje-img.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    border: none;
+    color:  #0A3871;
+    height: 58%;
+    width: 336px;
+    resize: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    margin: 32px;
+
+}
+
+.mensajeSubtitulo{
+    background: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+    margin-left: 32px;
+    margin-right: 32px;
+    padding: 10px;
+     
+
+}
+
+.infoMensaje{
+    background: none;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    margin-left: 32px;
+    margin-right: 32px;
+    padding: 10px;
+}
+
+.divCopiar{
+    background: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto 32px 32px 32px;
+    
+    
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
