@@ -9,8 +9,7 @@
   box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
 }
 .mensaje {
-  background: none;
-  background-image: url("/img/mensaje-img.png");
+  background: url("/img/mensaje-img.png");
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: bottom;
