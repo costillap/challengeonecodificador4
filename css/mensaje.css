@@ -10,7 +10,7 @@
 }
 .mensaje {
   background: none;
-  background-image: url("img/mensaje-img.png");
+  background-image: url("../img/mensaje-img.png");
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: bottom;
