@@ -1,0 +1,54 @@
+@media (min-width: 1024px) and (max-width: 1399px){
+   
+    main{
+        max-height: 768px;
+    }
+    .textAreaSection{
+        width: 671px;
+        margin: 29px 29px 29px 29px;
+    }
+    .text-area{
+        width: 496px;
+        margin: 58px 29px 0px 146px;
+        
+    }
+    .infoSection{
+        width: 496px;
+        margin: 0px 29px 0px 146px;
+    }
+    .botones{
+        width: 496px;
+        margin: 0px 29px 23px 146px;
+    }
+    .mensajeSection{
+        width: 262px;
+        margin: 29px 29px 29px 0px;
+    }
+    .mensaje{
+        width: 244px;
+        margin: 23px;
+    }
+    .mensajeSubtitulo{
+        margin-left: 23px;
+        margin-right: 23px;
+        padding: 7px;
+    }
+    .infoMensaje{
+        margin-left: 23px;
+        margin-right: 23px;
+        padding: 7px;
+    }
+    .divCopiar{
+       
+        margin: auto 23px 23px 23px;
+    }
+    .copiar{
+        width: 239px;
+    }
+    .boton-encriptar{
+        width: 239px;
+    }
+    .boton-desencriptar{
+        width: 239px;
+    }
+} 
