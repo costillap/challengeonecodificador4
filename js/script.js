@@ -2,8 +2,10 @@ const textArea = document.querySelector(".text-area");
 const mensaje = document.querySelector(".mensaje");
 const subtitulo = document.querySelector(".mensajeSubtitulo");
 const infoMensaje = document.querySelector(".infoMensaje");
-const botonCopiar = document.querySelector(".copiar")
-
+const botonCopiar = document.querySelector(".copiar");
+const divCopiar = document.querySelector(".divCopiar");
+const main = document.querySelector("main");
+const media768 = window.matchMedia("(min-width: 768px) and (max-width: 1023px)");
 
 function encriptar(textoEncriptado){
     let matriz = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];
@@ -36,13 +38,26 @@ function copiar(){
 
 function botonEncriptar(){
     const mensajeEncriptado = encriptar(textArea.value);
-    mensaje.value = mensajeEncriptado;
-    textArea.value = "";
-    mensaje.style.backgroundImage = "none";
-    mensaje.style.height = "781px";
-    subtitulo.style.display ="none";
-    infoMensaje.style.display = "none";
-    botonCopiar.style.visibility = "visible"
+    if (media768.matches){
+        main.style.height = "1384px"
+        mensaje.style.display = "block";
+        mensaje.value = mensajeEncriptado;
+        mensaje.style.height = "180px";
+        subtitulo.style.display ="none";
+        infoMensaje.style.display = "none";
+        divCopiar.style.display = "block";
+        botonCopiar.style.visibility = "visible";
+        
+    }else{
+        mensaje.value = mensajeEncriptado;
+        textArea.value = "";
+        mensaje.style.backgroundImage = "none";
+        mensaje.style.height = "781px";
+        subtitulo.style.display ="none";
+        infoMensaje.style.display = "none";
+        botonCopiar.style.visibility = "visible";
+    }
+        
 }
 
 function botonDesencriptar(){

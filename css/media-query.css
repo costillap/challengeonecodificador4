@@ -52,3 +52,56 @@
         width: 239px;
     }
 } 
+
+@media (min-width: 768px) and (max-width: 1023px){
+    body{
+        flex-direction: column;
+       
+    }
+    main{
+        width: 768px;
+        flex-direction: column;
+    }
+    .textAreaSection{
+        width: 688px;
+        height: 1000px;
+    }
+    .text-area{
+        width: 688px;
+        margin: 40px;
+    }
+    .infoSection{
+        width: 688px;
+        margin: 16px 40px;
+    }
+    .mensajeSection{
+        width: 688px;
+        margin: 24px 40px 40px 40px;
+        
+    }
+    .mensaje{
+        width: 624px;
+        background: none;
+        display: none; 
+        
+    }
+    .mensajeSubtitulo{
+        margin: 32px 32px 16px 32px;
+        padding: 0px;
+    }
+    .infoMensaje{
+        margin: 0px 32px 32px 32px;
+        padding: 0px;
+    }
+    .botones{
+        width: 688px;
+        margin: 0px 40px ;
+    }
+    .logo img {
+        width: 31px;
+        height: 46.37px;
+    }
+    .divCopiar{
+        display: none;
+    }
+}
