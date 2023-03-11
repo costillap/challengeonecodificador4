@@ -104,4 +104,7 @@
     .divCopiar{
         display: none;
     }
+    .copiar{
+        width: 624px;
+    }
 }
