@@ -6,7 +6,7 @@ const botonCopiar = document.querySelector(".copiar");
 const divCopiar = document.querySelector(".divCopiar");
 const main = document.querySelector("main");
 const media768 = window.matchMedia("(min-width: 768px) and (max-width: 1023px)");
-
+const media375 = window.matchMedia("(max-width: 767px)");
 function encriptar(textoEncriptado){
     let matriz = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];
     textoEncriptado = textoEncriptado.toLowerCase()
@@ -48,6 +48,16 @@ function botonEncriptar(){
         divCopiar.style.display = "block";
         botonCopiar.style.visibility = "visible";
         
+    }if(media375.matches){
+        main.style.height = "1190px"
+        mensaje.style.display = "block";
+        mensaje.value = mensajeEncriptado;
+        mensaje.style.height = "280px";
+        subtitulo.style.display ="none";
+        infoMensaje.style.display = "none";
+        divCopiar.style.display = "block";
+        botonCopiar.style.visibility = "visible";
+    
     }else{
         mensaje.value = mensajeEncriptado;
         textArea.value = "";
