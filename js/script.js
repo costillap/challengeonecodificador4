@@ -60,7 +60,7 @@ function botonEncriptar(){
     
     }else{
         mensaje.value = mensajeEncriptado;
-        textArea.value = "";
+        
         mensaje.style.backgroundImage = "none";
         mensaje.style.height = "781px";
         subtitulo.style.display ="none";
@@ -73,6 +73,6 @@ function botonEncriptar(){
 function botonDesencriptar(){
     const mensajeDesencriptado = desencriptar(textArea.value);
     mensaje.value = mensajeDesencriptado;
-    textArea.value = "";
+    
 }
 

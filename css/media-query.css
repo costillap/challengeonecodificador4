@@ -1,182 +1,172 @@
-@media (min-width: 1024px) and (max-width: 1399px){
-   
-    main{
-        max-height: 768px;
-    }
-    .textAreaSection{
-        width: 671px;
-        margin: 29px 29px 29px 29px;
-    }
-    .text-area{
-        width: 496px;
-        margin: 58px 29px 0px 146px;
-        
-    }
-    .infoSection{
-        width: 496px;
-        margin: 0px 29px 0px 146px;
-    }
-    .botones{
-        width: 496px;
-        margin: 0px 29px 23px 146px;
-    }
-    .mensajeSection{
-        width: 262px;
-        margin: 29px 29px 29px 0px;
-    }
-    .mensaje{
-        width: 244px;
-        margin: 23px;
-    }
-    .mensajeSubtitulo{
-        margin-left: 23px;
-        margin-right: 23px;
-        padding: 7px;
-    }
-    .infoMensaje{
-        margin-left: 23px;
-        margin-right: 23px;
-        padding: 7px;
-    }
-    .divCopiar{
-       
-        margin: auto 23px 23px 23px;
-    }
-    .copiar{
-        width: 239px;
-    }
-    .boton-encriptar{
-        width: 239px;
-    }
-    .boton-desencriptar{
-        width: 239px;
-    }
-} 
-
-@media (min-width: 768px) and (max-width: 1023px){
-    body{
-        flex-direction: column;
-       
-    }
-    main{
-        width: 768px;
-        flex-direction: column;
-    }
-    .textAreaSection{
-        width: 688px;
-        height: 1000px;
-    }
-    .text-area{
-        width: 688px;
-        margin: 40px;
-    }
-    .infoSection{
-        width: 688px;
-        margin: 16px 40px;
-    }
-    .mensajeSection{
-        width: 688px;
-        margin: 24px 40px 40px 40px;
-        
-    }
-    .mensaje{
-        width: 624px;
-        background: none;
-        display: none; 
-        
-    }
-    .mensajeSubtitulo{
-        margin: 32px 32px 16px 32px;
-        padding: 0px;
-    }
-    .infoMensaje{
-        margin: 0px 32px 32px 32px;
-        padding: 0px;
-    }
-    .botones{
-        width: 688px;
-        margin: 0px 40px ;
-    }
-    .logo img {
-        width: 31px;
-        height: 46.37px;
-    }
-    .divCopiar{
-        display: none;
-    }
-    .copiar{
-        width: 624px;
-    }
+@media (min-width: 1024px) and (max-width: 1399px) {
+  main {
+    max-height: 768px;
+  }
+  .textAreaSection {
+    width: 671px;
+    margin: 29px 29px 29px 29px;
+  }
+  .text-area {
+    width: 496px;
+    margin: 58px 29px 0px 146px;
+  }
+  .infoSection {
+    width: 496px;
+    margin: 0px 29px 0px 146px;
+  }
+  .botones {
+    width: 496px;
+    margin: 0px 29px 23px 146px;
+  }
+  .mensajeSection {
+    width: 262px;
+    margin: 29px 29px 29px 0px;
+  }
+  .mensaje {
+    width: 244px;
+    margin: 23px;
+  }
+  .mensajeSubtitulo {
+    margin-left: 23px;
+    margin-right: 23px;
+    padding: 7px;
+  }
+  .infoMensaje {
+    margin-left: 23px;
+    margin-right: 23px;
+    padding: 7px;
+  }
+  .divCopiar {
+    margin: auto 23px 23px 23px;
+  }
+  .copiar {
+    width: 239px;
+  }
+  .boton-encriptar {
+    width: 239px;
+  }
+  .boton-desencriptar {
+    width: 239px;
+  }
 }
 
-@media (max-width: 767px){
-    body{
-        flex-direction: column;
-    }
-    main{
-        width: 375px;
-        height: 933px;
-        flex-direction: column;
-        
-    }
-    .textAreaSection{
-        width: 343px;
-        height: auto;
-        
-        margin: 16px;
-        flex-grow:1 ;
-    }
-    .text-area{
-        width: 343px;
-        margin: 40px 16px;
-        max-height: 624px;
-    }
-    .infoSection{
-        width: 343px;
-        margin: 0px 16px;
-    }
-    .botones{
-        width: 343px;
-        margin: 0px 16px;
-        flex-direction: column;
-        align-items: center;
-    }
-    .boton-encriptar{
-        margin-bottom: 24px;
-        width: 343px;
-    }
-    .boton-desencriptar{
-        margin-bottom: 24px;
-        width: 343px;
-        background-color: #F3F5FC;
-    }
-    .divCopiar{
-        display: none;
-    }
-    .copiar{
-        width: 279px;
-    }
-    .mensajeSection{
-        width: 327px;
-        margin: 16px 24px 40px 24px;
-        
-    }
-    .mensaje{
-        width: 279px;
-        background: none;
-        display: none; 
-        
-    }
-    .mensajeSubtitulo{
-        margin: 32px 32px 16px 32px;
-        padding: 0px;
-    }
-    .infoMensaje{
-        margin: 0px 32px 32px 32px;
-        padding: 0px;
-    }
-    .logo{
-        margin: 16px 0px;
-    }
-    
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    flex-direction: column;
+  }
+  main {
+    width: 768px;
+    flex-direction: column;
+  }
+  .textAreaSection {
+    width: 688px;
+    height: 1000px;
+  }
+  .text-area {
+    width: 688px;
+    margin: 40px;
+  }
+  .infoSection {
+    width: 688px;
+    margin: 16px 40px;
+  }
+  .mensajeSection {
+    width: 688px;
+    margin: 24px 40px 40px 40px;
+  }
+  .mensaje {
+    width: 624px;
+    background: none;
+    display: none;
+  }
+  .mensajeSubtitulo {
+    margin: 32px 32px 16px 32px;
+    padding: 0px;
+  }
+  .infoMensaje {
+    margin: 0px 32px 32px 32px;
+    padding: 0px;
+  }
+  .botones {
+    width: 688px;
+    margin: 0px 40px;
+  }
+  .logo img {
+    width: 31px;
+    height: 46.37px;
+  }
+  .divCopiar {
+    display: none;
+  }
+  .copiar {
+    width: 624px;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    flex-direction: column;
+  }
+  main {
+    width: 375px;
+    height: 933px;
+    flex-direction: column;
+  }
+  .textAreaSection {
+    width: 343px;
+    height: auto;
+
+    margin: 16px;
+    flex-grow: 1;
+  }
+  .text-area {
+    width: 343px;
+    margin: 40px 16px;
+    max-height: 624px;
+  }
+  .infoSection {
+    width: 343px;
+    margin: 0px 16px;
+  }
+  .botones {
+    width: 343px;
+    margin: 0px 16px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .boton-encriptar {
+    margin-bottom: 24px;
+    width: 343px;
+  }
+  .boton-desencriptar {
+    margin-bottom: 24px;
+    width: 343px;
+    background-color: #f3f5fc;
+  }
+  .divCopiar {
+    display: none;
+  }
+  .copiar {
+    width: 279px;
+  }
+  .mensajeSection {
+    width: 327px;
+    margin: 16px 24px 40px 24px;
+  }
+  .mensaje {
+    width: 279px;
+    background: none;
+    display: none;
+  }
+  .mensajeSubtitulo {
+    margin: 32px 32px 16px 32px;
+    padding: 0px;
+  }
+  .infoMensaje {
+    margin: 0px 32px 32px 32px;
+    padding: 0px;
+  }
+  .logo {
+    margin: 16px 0px;
+  }
 }
