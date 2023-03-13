@@ -1,7 +1,5 @@
 @media (min-width: 1024px) and (max-width: 1399px) {
-  main {
-    max-height: 768px;
-  }
+  
   .textAreaSection {
     width: 671px;
     margin: 29px 29px 29px 29px;
@@ -56,6 +54,7 @@
   }
   main {
     width: 768px;
+    height: 1174px;
     flex-direction: column;
   }
   .textAreaSection {
